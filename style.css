@@ -1,0 +1,9 @@
+/* The CSS for the hover effect is handled by Tailwind's `hover:text-blue-500` utility class. */
+/* Change link color and hover effect when the navbar is scrolled */
+.navbar-scrolled a {
+    color: #4B5563; /* Change the text color of all links inside the navbar */
+}
+
+.navbar-scrolled a:hover {
+    color: #1F2937; /* A darker color on hover for better contrast */
+}
